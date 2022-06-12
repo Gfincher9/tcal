@@ -5,4 +5,4 @@ DEPS = logic.h
 	$(CC) -c -o $@ $< $(CFLAGS)
 tcal: main.c 
 	$(CC) -o tcal main.c $(CFLAGS)	
-	sudo cp tcal /bin/
+	
